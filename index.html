@@ -92,7 +92,7 @@
     }
 
     function submitForm(formObject){
-    fetch(`https://script.google.com/macros/s/AKfycbyxk9qrTthKZTXJAG_EJv7uyqvtSVGSEqYFlN-XSGlDnZW7IW3vkLYv_aRwJSLqDztt4w/exec`, {
+    fetch(`https://gcck.myktcn.workers.dev/addForm`, {
                   method : 'POST',
                   header : {'Content-Type': 'application/json'},
                   body : `{"soPO" : "${formObject.soPO.value}",
